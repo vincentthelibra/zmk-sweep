@@ -124,8 +124,18 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <10 12>;
+            key-positions = <10 12 11>;
             timeout-ms = <30>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <5 6>;
+        };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <3 4>;
         };
     };
 
