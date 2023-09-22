@@ -137,6 +137,26 @@
             bindings = <&kp GRAVE>;
             key-positions = <3 4>;
         };
+
+        semi {
+            bindings = <&kp SEMI>;
+            key-positions = <16 17 18>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <7 8 6>;
+        };
+
+        sqt {
+            bindings = <&kp SQT>;
+            key-positions = <17 18>;
+        };
+
+        dqt {
+            bindings = <&kp DQT>;
+            key-positions = <17 18 26>;
+        };
     };
 
     behaviors {
