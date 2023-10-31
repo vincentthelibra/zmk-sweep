@@ -86,7 +86,7 @@
             timeout-ms = <30>;
         };
 
-        minus {
+        under {
             bindings = <&kp UNDER>;
             key-positions = <15 17>;
             timeout-ms = <30>;
@@ -161,6 +161,13 @@
         caps {
             bindings = <&kp CAPSLOCK>;
             key-positions = <11 18>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <5 7>;
+            timeout-ms = <30>;
+            layers = <0>;
         };
     };
 
