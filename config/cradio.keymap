@@ -26,9 +26,7 @@
     // tapping_term_ms = <200>;
 };
 
-&sk {
-    ignore-modifiers;
-};
+&sk { ignore-modifiers; };
 
 / {
     macros {
@@ -86,8 +84,8 @@
             timeout-ms = <30>;
         };
 
-        combo_under {
-            bindings = <&kp UNDER>;
+        combo_minus {
+            bindings = <&kp MINUS>;
             key-positions = <15 17>;
             timeout-ms = <30>;
         };
@@ -116,14 +114,14 @@
             timeout-ms = <30>;
         };
 
-        combo_plus {
-            bindings = <&kp MINUS>;
+        combo_under {
+            bindings = <&kp UNDER>;
             key-positions = <15 18>;
             timeout-ms = <30>;
         };
 
-        combo_tab {
-            bindings = <&kp TAB>;
+        combo_plus {
+            bindings = <&kp PLUS>;
             key-positions = <10 12 11>;
             timeout-ms = <30>;
         };
@@ -163,7 +161,7 @@
             key-positions = <11 18>;
         };
 
-        combo_minus {
+        combo_equal {
             bindings = <&kp EQUAL>;
             key-positions = <5 7>;
             timeout-ms = <30>;
@@ -212,7 +210,7 @@
             bindings = <
 &kp N1           &kp N2                &kp N3                 &kp N4            &kp N5               &kp N6          &kp N7           &kp N8         &kp N9            &kp N0
 &kp EXCLAMATION  &kp AT_SIGN           &kp POUND              &kp DOLLAR        &kp PERCENT          &kp CARET       &kp AMPERSAND    &kp ASTERISK   &kp SEMICOLON     &kp APOS
-&kp ESCAPE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN  &kp RA(LBKT)
+&kp ESCAPE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN  &kp PLUS
                                                               &to 3             &none                &none           &none
             >;
         };
