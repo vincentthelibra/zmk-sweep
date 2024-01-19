@@ -86,84 +86,84 @@
             timeout-ms = <30>;
         };
 
-        under {
+        combo_under {
             bindings = <&kp UNDER>;
             key-positions = <15 17>;
             timeout-ms = <30>;
         };
 
-        lessthan {
+        combo_lessthan {
             bindings = <&kp LESS_THAN>;
             key-positions = <25 27>;
             timeout-ms = <30>;
         };
 
-        greater {
+        combo_greater {
             bindings = <&kp GREATER_THAN>;
             key-positions = <25 28>;
             timeout-ms = <30>;
         };
 
-        pipe {
+        combo_pipe {
             bindings = <&kp PIPE>;
             key-positions = <14 15>;
             timeout-ms = <30>;
         };
 
-        backsplash {
+        combo_backsplash {
             bindings = <&kp BACKSLASH>;
             key-positions = <4 5>;
             timeout-ms = <30>;
         };
 
-        plus {
+        combo_plus {
             bindings = <&kp MINUS>;
             key-positions = <15 18>;
             timeout-ms = <30>;
         };
 
-        tab {
+        combo_tab {
             bindings = <&kp TAB>;
             key-positions = <10 12 11>;
             timeout-ms = <30>;
         };
 
-        tilde {
+        combo_tilde {
             bindings = <&kp TILDE>;
             key-positions = <5 6>;
         };
 
-        grave {
+        combo_grave {
             bindings = <&kp GRAVE>;
             key-positions = <3 4>;
         };
 
-        semi {
+        combo_semi {
             bindings = <&kp SEMI>;
             key-positions = <16 17 18>;
         };
 
-        colon {
+        combo_colon {
             bindings = <&kp COLON>;
             key-positions = <7 8 6>;
         };
 
-        sqt {
+        combo_sqt {
             bindings = <&kp SQT>;
             key-positions = <17 18>;
         };
 
-        dqt {
+        combo_dqt {
             bindings = <&kp DQT>;
             key-positions = <17 18 26>;
         };
 
-        caps {
+        combo_caps {
             bindings = <&kp CAPSLOCK>;
             key-positions = <11 18>;
         };
 
-        minus {
+        combo_minus {
             bindings = <&kp EQUAL>;
             key-positions = <5 7>;
             timeout-ms = <30>;
