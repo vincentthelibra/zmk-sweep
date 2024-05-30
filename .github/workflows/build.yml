@@ -29,6 +29,9 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
 
+      - name: Install zip utility
+        run: apt-get update && apt-get install -y zip
+
       - name: West Init
         run: west init -l config
 
