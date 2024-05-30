@@ -15,9 +15,6 @@
 #define SYM 1
 #define EXT 2
 #define FNC 3
-#define SYM2 4
-#define ACCENT 5
-#define SETTINGS 6
 
 // -----------------
 
@@ -237,8 +234,5 @@
             >;
         };
 
-        // Low frequency symbols.
-        // Used to type regional accents.
-        // Used to change the keyboard's settings.
     };
 };
