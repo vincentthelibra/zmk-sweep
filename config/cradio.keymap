@@ -164,6 +164,11 @@
             timeout-ms = <30>;
             layers = <0>;
         };
+
+        Alt+Tab {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <11 12 13>;
+        };
     };
 
     behaviors {
@@ -233,6 +238,5 @@
                                          &to 0         &none           &none                 &none
             >;
         };
-
     };
 };
