@@ -206,8 +206,6 @@
             >;
         };
 
-        // Numbers and high frequency symbols
-
         lower_layer {
             bindings = <
 &kp N1           &kp N2                &kp N3                 &kp N4            &kp N5               &kp N6          &kp N7           &kp N8         &kp N9            &kp N0
@@ -217,8 +215,6 @@
             >;
         };
 
-        // Main modifiers and arrow keys
-
         raise_layer {
             bindings = <
 &kp F1   &kp F2     &kp F3     &kp F4     &kp F5     &kp HOME  &kp END   &kp PAGE_UP   &kp PAGE_DOWN  &kp LA(TAB)
@@ -227,8 +223,6 @@
                                &none      &none      &to 4     &kp DEL
             >;
         };
-
-        // Function keys with modifiers
 
         sys_layer {
             bindings = <
@@ -244,11 +238,20 @@
 &kp Q       &kp W           &kp F        &kp P             &kp B      &kp J      &kp L             &kp U        &kp Y             &kp SEMI
 &ht LCMD A  &ht LEFT_ALT R  &ht LCTRL S  &ht LEFT_SHIFT T  &kp G      &kp M      &ht LEFT_SHIFT N  &ht LCTRL E  &ht LEFT_SHIFT I  &ht LEFT_COMMAND O
 &kp X       &kp C           &kp D        &kp V             &kp Z      &kp K      &kp H             &kp COMMA    &kp DOT           &kp FSLH
-                                         &lt 5 BACKSPACE   &kp TAB    &kp ENTER  &lt 1 SPACE
+                                         &lt 6 BACKSPACE   &kp TAB    &kp ENTER  &lt 4 SPACE
             >;
         };
 
-        mac_layer {
+        mac_layer1 {
+            bindings = <
+&kp N1      &kp N2                &kp N3                 &kp N4            &kp N5               &kp N6          &kp N7           &kp N8         &kp N9            &kp N0
+&kp EXCL    &kp AT                &kp HASH               &kp DOLLAR        &kp PERCENT          &kp CARET       &kp AMPERSAND    &kp ASTERISK   &kp SEMICOLON     &kp SINGLE_QUOTE
+&kp ESCAPE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN  &kp PLUS
+                                                         &trans            &trans               &trans          &trans
+            >;
+        };
+
+        mac_layer2 {
             bindings = <
 &kp F1   &kp F2     &kp F3     &kp F4     &kp F5     &kp LG(LEFT)  &kp LG(DOWN)   &kp LG(UP_ARROW)  &kp LG(RIGHT)  &trans
 &kp F6   &kp F7     &kp F8     &kp F9     &kp F10    &kp LEFT      &kp DOWN       &kp UP_ARROW      &kp RIGHT      &trans
