@@ -217,9 +217,9 @@
 
         raise_layer {
             bindings = <
-&kp F1   &kp F2     &kp F3     &kp F4     &kp F5     &kp HOME  &kp END   &kp PAGE_UP   &kp PAGE_DOWN  &kp LA(TAB)
-&kp F6   &kp F7     &kp F8     &kp F9     &kp F10    &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT      &kp K_APPLICATION
-&kp F11  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp F12    &none     &none     &none         &none          &none
+&kp F1   &kp F2     &kp F3     &kp F4     &kp F5     &kp HOME  &kp END   &kp PAGE_UP   &kp PAGE_DOWN  &kp SWE_ODOT
+&kp F6   &kp F7     &kp F8     &kp F9     &kp F10    &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT      &kp SWE_ADOT
+&kp F11  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp F12    &none     &none     &none         &none          &kp SWE_AGRV
                                &none      &none      &to 4     &kp DEL
             >;
         };
@@ -238,7 +238,7 @@
 &kp Q       &kp W           &kp F        &kp P             &kp B      &kp J      &kp L             &kp U        &kp Y             &kp SEMI
 &ht LCMD A  &ht LEFT_ALT R  &ht LCTRL S  &ht LEFT_SHIFT T  &kp G      &kp M      &ht LEFT_SHIFT N  &ht LCTRL E  &ht LEFT_SHIFT I  &ht LEFT_COMMAND O
 &kp X       &kp C           &kp D        &kp V             &kp Z      &kp K      &kp H             &kp COMMA    &kp DOT           &kp FSLH
-                                         &lt 6 BACKSPACE   &kp TAB    &kp ENTER  &lt 4 SPACE
+                                         &lt 6 BACKSPACE   &kp TAB    &kp ENTER  &lt 5 SPACE
             >;
         };
 
@@ -253,9 +253,9 @@
 
         mac_layer2 {
             bindings = <
-&kp F1   &kp F2     &kp F3     &kp F4     &kp F5     &kp LG(LEFT)  &kp LG(DOWN)   &kp LG(UP_ARROW)  &kp LG(RIGHT)  &trans
-&kp F6   &kp F7     &kp F8     &kp F9     &kp F10    &kp LEFT      &kp DOWN       &kp UP_ARROW      &kp RIGHT      &trans
-&kp F11  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp F12    &trans        &trans         &trans            &trans         &trans
+&kp F1   &kp F2     &kp F3     &kp F4     &kp F5     &kp LG(LEFT)  &kp LALT(DOWN)   &kp LALT(UP_ARROW)  &kp LALT(RIGHT)   &kp SWE_ODOT
+&kp F6   &kp F7     &kp F8     &kp F9     &kp F10    &kp LEFT      &kp DOWN         &kp UP_ARROW        &kp RIGHT         &kp SWE_ADOT
+&kp F11  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp F12    &trans        &trans           &trans              &trans            &kp SWE_AGRV
                                &trans     &trans     &to 0         &kp BACKSPACE
             >;
         };
