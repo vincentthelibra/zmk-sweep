@@ -160,9 +160,8 @@
 
         combo_equal {
             bindings = <&kp EQUAL>;
-            key-positions = <5 7>;
+            key-positions = <7 5>;
             timeout-ms = <30>;
-            layers = <0>;
         };
 
         Alt+Tab {
@@ -253,9 +252,9 @@
 
         mac_layer2 {
             bindings = <
-&kp F1   &kp F2     &kp F3     &kp F4     &kp F5     &kp LA(LEFT)  &kp LA(DOWN)     &kp LA(UP_ARROW)    &kp LA(RIGHT)     &kp SWE_ODOT
-&kp F6   &kp F7     &kp F8     &kp F9     &kp F10    &kp LEFT      &kp DOWN         &kp UP_ARROW        &kp RIGHT         &kp SWE_ADOT
-&kp F11  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp F12    &trans        &trans           &trans              &trans            &kp SWE_AGRV
+&kp F1   &kp F2     &kp F3     &kp F4     &kp F5     &kp LA(LEFT)  &kp LA(DOWN)   &kp LA(UP_ARROW)  &kp LA(RIGHT)  &kp SWE_ODOT
+&kp F6   &kp F7     &kp F8     &kp F9     &kp F10    &kp LEFT      &kp DOWN       &kp UP_ARROW      &kp RIGHT      &kp SWE_ADOT
+&kp F11  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp F12    &trans        &trans         &trans            &trans         &kp SWE_AGRV
                                &trans     &trans     &to 0         &kp BACKSPACE
             >;
         };
