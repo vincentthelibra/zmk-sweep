@@ -234,9 +234,9 @@
 
         mac_layer0 {
             bindings = <
-&kp Q       &kp W           &kp F        &kp P             &kp B      &kp J      &kp L             &kp U        &kp Y             &kp SEMI
-&ht LCMD A  &ht LEFT_ALT R  &ht LCTRL S  &ht LEFT_SHIFT T  &kp G      &kp M      &ht LEFT_SHIFT N  &ht LCTRL E  &ht LEFT_SHIFT I  &ht LEFT_COMMAND O
-&kp X       &kp C           &kp D        &kp V             &kp Z      &kp K      &kp H             &kp COMMA    &kp DOT           &kp FSLH
+&kp Q       &kp W           &kp F        &kp P             &kp B      &kp J      &kp L             &kp U        &kp Y           &kp SEMI
+&ht LCMD A  &ht LEFT_ALT R  &ht LCTRL S  &ht LEFT_SHIFT T  &kp G      &kp M      &ht LEFT_SHIFT N  &ht LCTRL E  &ht LEFT_ALT I  &ht LEFT_COMMAND O
+&kp X       &kp C           &kp D        &kp V             &kp Z      &kp K      &kp H             &kp COMMA    &kp DOT         &kp FSLH
                                          &lt 6 BACKSPACE   &kp TAB    &kp ENTER  &lt 5 SPACE
             >;
         };
